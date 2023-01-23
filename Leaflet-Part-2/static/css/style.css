@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .leaflet-popup-content {
+    text-align: center;
+    min-width: 400px;
+    height: fit-content;
+  }
+  
+  .legend {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    border-radius: 10px;
+  }
+  .legend ul {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+
+  }
